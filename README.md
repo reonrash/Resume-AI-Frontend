@@ -64,24 +64,6 @@ npm run dev
 
 You should see it live at `http://localhost:5173` (or maybe a different port if that one's busy).
 
-## Ready for the World (Deployment) 🚀
-
-This SvelteKit app is a "static" frontend, meaning it just serves up files and then talks to your separate backend API.
-
-1. **Build it for production:** Make sure you've got `@sveltejs/adapter-static` set up in your `svelte.config.js` with `fallback: 'index.html'`.
-
-```bash
-npm run build
-```
-
-This creates all the ready-to-go files in the `build/` folder.
-
-2. **Pick a hosting spot:** You can deploy that `build/` folder to almost any static site host. We really like:
-   - **AWS S3 + CloudFront (Our Top Pick!):** Super fast, global, and secure (HTTPS!).
-   - Netlify
-   - Vercel
-   - GitHub Pages
-
 **Super Important:** Before you build for deployment, double-check that your `PUBLIC_API_BASE_URL` in your `.env` (or wherever your deployment environment stores variables) is pointing to your _live, deployed_ backend API URL!
 
 ## How to Use It (The Fun Part!) 🎉
@@ -96,10 +78,3 @@ Once your app is live:
 3. **Click the button!** Hit "Grade Resume," "Enhance Bullet Point," or "Compare Resume."
 4. **See the magic:** Your results will pop right up!
 
-## A Quick Word on API Keys 🔑
-
-Just a friendly reminder: If your backend API uses any super-secret API keys to talk to other services (like AI models), those keys should **NEVER** be in this frontend code. They need to live securely on your backend server (think AWS Lambda environment variables or a secrets manager). This frontend only talks to your backend's public-facing endpoints. Stay safe out there!
-
----
-
-_Happy resume grading! 🎯_
