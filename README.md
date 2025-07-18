@@ -2,6 +2,8 @@
 
 Hey there! This is the frontend part of our cool Resume Grader app, built with SvelteKit. It's super easy to use and helps you shine!
 
+![Screenshot of website](./images/website.png)
+
 ## What it Does ✨
 
 - **Grade Your Resume:** Upload your resume (PDF, Word docs work too!) and get an instant AI-powered grade. See your score and what makes your resume awesome.
