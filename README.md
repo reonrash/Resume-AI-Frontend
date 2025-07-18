@@ -76,10 +76,3 @@ Once your app is live:
 3. **Click the button!** Hit "Grade Resume," "Enhance Bullet Point," or "Compare Resume."
 4. **See the magic:** Your results will pop right up!
 
-## A Quick Word on API Keys 🔑
-
-Just a friendly reminder: If your backend API uses any super-secret API keys to talk to other services (like AI models), those keys should **NEVER** be in this frontend code. They need to live securely on your backend server (think AWS Lambda environment variables or a secrets manager). This frontend only talks to your backend's public-facing endpoints. Stay safe out there!
-
----
-
-_Happy resume grading! 🎯_
