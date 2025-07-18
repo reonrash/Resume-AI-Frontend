@@ -62,24 +62,6 @@ npm run dev
 
 You should see it live at `http://localhost:5173` (or maybe a different port if that one's busy).
 
-## Ready for the World (Deployment) 🚀
-
-This SvelteKit app is a "static" frontend, meaning it just serves up files and then talks to your separate backend API.
-
-1. **Build it for production:** Make sure you've got `@sveltejs/adapter-static` set up in your `svelte.config.js` with `fallback: 'index.html'`.
-
-```bash
-npm run build
-```
-
-This creates all the ready-to-go files in the `build/` folder.
-
-2. **Pick a hosting spot:** You can deploy that `build/` folder to almost any static site host. We really like:
-   - **AWS S3 + CloudFront (Our Top Pick!):** Super fast, global, and secure (HTTPS!).
-   - Netlify
-   - Vercel
-   - GitHub Pages
-
 **Super Important:** Before you build for deployment, double-check that your `PUBLIC_API_BASE_URL` in your `.env` (or wherever your deployment environment stores variables) is pointing to your _live, deployed_ backend API URL!
 
 ## How to Use It (The Fun Part!) 🎉
