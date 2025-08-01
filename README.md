@@ -4,18 +4,16 @@ Hey there! This is the frontend part of our cool Resume Grader app, built with S
 
 ![Screenshot of website](./images/website.png)
 
-## What it Does ✨
+## What it Does 
 
 - **Grade Your Resume:** Upload your resume (PDF, Word docs work too!) and get an instant AI-powered grade. See your score and what makes your resume awesome.
 - **Deep Dive Analysis:** We'll break down your resume's highlights, suggest improvements, and show you the key keywords recruiters are looking for.
 - **Smart Feedback:** Get clear feedback on things like formatting (ATS-friendly!), how clear and action-oriented your language is, if you're showing enough impact with numbers, and how well your keywords match.
 - **Bullet Point Booster:** Got some bullet points that need a little extra oomph? Our AI will whip up stronger, more impactful versions for you.
 - **Job Matchmaker:** Upload your resume and paste a job description. We'll show you how well you match, point out any skill gaps, and give you personalized tips.
-- **Super Easy to Use:** We designed it to be super intuitive and friendly.
 - **Looks Great Everywhere:** Works perfectly on your phone, tablet, or desktop.
-- **Friendly Messages:** No annoying pop-ups, just helpful little messages when you need them.
 
-## How We Built It 🛠️
+## How We Built It 
 
 - **SvelteKit:** Our go-to for building snappy web apps.
 - **Svelte:** Makes the magic happen behind the scenes, keeping things fast and smooth.
@@ -66,7 +64,7 @@ You should see it live at `http://localhost:5173` (or maybe a different port if 
 
 **Super Important:** Before you build for deployment, double-check that your `PUBLIC_API_BASE_URL` in your `.env` (or wherever your deployment environment stores variables) is pointing to your _live, deployed_ backend API URL!
 
-## How to Use It (The Fun Part!) 🎉
+## How to Use It (The Fun Part!) 
 
 Once your app is live:
 
