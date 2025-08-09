@@ -21,7 +21,7 @@ Hey there! This is the frontend part of our cool Resume Grader app, built with S
 - **JavaScript:** The brains of the operation, handling all the cool features.
 - **Talks to a Backend:** All the smart AI stuff happens on a separate backend service that this frontend chats with.
 
-## Get It Running Locally (for Devs) 🧑‍💻
+## Get It Running Locally 
 
 Want to tinker with it on your machine? Here's how!
 
